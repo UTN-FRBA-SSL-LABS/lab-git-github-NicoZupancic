@@ -13,7 +13,7 @@ int restar(const int a, const int b) {
 }
 
 /* ── multiplicar — implementar en feature/mi-funcion ─────────────────────── */
-//Multiplica dos números enteros y retorna el producto.
+/*Multiplica dos números enteros y retorna el producto.
 int multiplicar(int a, int b) {
     return a * b;
 }
@@ -22,8 +22,4 @@ int multiplicar(int a, int b) {
 
 int esPar(int n) {
     return (n % 2) == 0;
-}
-
-int dividir(int a, int b) {
-    return a - b; /* bug intencional */
 }
